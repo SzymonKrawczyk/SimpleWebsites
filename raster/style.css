@@ -1,0 +1,306 @@
+body
+{
+    margin: 0;
+    background-image: url(stoi.jpg);
+    background-size: 100% 120%;
+    background-attachment: fixed;
+    font-family: 'Abel', sans-serif;
+}
+
+#top
+{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: white;
+    border-bottom: 3px solid grey;
+    border-top: 3px solid #e67fb9;
+    z-index: 2;
+}
+
+#logo
+{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 80px;
+    background-image: url(logo.png);
+    background-size: 300px 80px;
+}
+
+#logo:hover
+{
+    cursor: pointer;
+   box-shadow: inset 10px 10px 0px 200px rgba(255,255,255,0.3);
+}
+
+#menu
+{
+    width: autp;
+    height: 80px;
+    float: right;
+    margin-right: 18px;
+}
+
+.menu
+{
+    width: auto;
+    height: 80px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    line-height: 80px;
+    float: right;
+    cursor: pointer;
+    color: grey;
+}
+
+.menu:hover
+{
+    color: #e67fb9;
+}
+
+#cmyk_image
+{
+    background-image: url(slide1.png);
+    margin-top: 86px;
+    background-size: 100% 500px;
+    width: 100%;
+    height: 500px;
+}
+
+#content_middle
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #FAFAFA;
+}
+
+#info_div
+{
+    width: 1356px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info
+{
+    width: 402px;
+    padding: 25px;
+    height: 550px;
+    float: left;
+}
+
+.info_image
+{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+    opacity: 0.8;
+}
+
+.info_image:hover
+{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#image_1
+{
+    background-image: url(111.png);
+}
+
+#image_2
+{
+    background-image: url(222.png);
+}
+
+#image_3
+{
+    background-image: url(333.png);
+}
+
+.info_content
+{
+    margin-top: -15px;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info_p
+{
+    text-align: justify;
+    font-size: 19px;
+}
+
+.read_more
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: #e67fb9;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+.read_more:hover
+{
+    background-color: #e564ad;
+}
+
+#holder
+{
+    
+    bottom: 0;
+    margin-bottom: -1000px;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+}
+
+#content_bottom
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    background-color: #FAFAFA;
+    border-bottom: 3px solid grey;
+}
+
+#bottom_images
+{
+    height: 250px;
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom_set
+{
+    width: 425px;
+    height: 250px;
+    float: left;
+    margin-left: 50px;
+    color: grey;
+}
+
+.bottom_set:hover
+{
+    color: #e67fb9;
+}
+
+#bottom_image
+{
+    width: 425px;
+    height: 225px;
+    background-image: url(rgb.jpg);
+}
+
+#bottom_image:hover
+{
+    background-image: url(cmyk.jpg);
+    cursor: pointer;
+}
+
+#bottom_span
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#footer
+{
+    height: 250px;
+    width: 100%;
+    margin-top: 0;
+    background-color: #2b2b2b;
+}
+
+#content_footer
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1425px;
+    height: 250px;
+}
+
+.footer_set
+{
+    width: 425px;
+    height: 240px;
+    float: left;
+    margin-left: 50px;
+    color: #FAFAFA;
+}
+
+.footer_h3
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.link
+{
+    height: 35px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 35px;
+    border-bottom: 3px solid silver;
+    cursor: pointer;
+    color: silver;
+}
+
+.link:hover
+{
+    color: white;
+}
+
+#no_border
+{
+    border: none;
+}
+
+#search_box
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 35px;
+    padding-left: 15px;
+}
+
+#search_button
+{
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    background-color: #e67fb9;
+    cursor: pointer;
+}
+
+#kontakt
+{
+    font-size: 20px;
+    font-family: Arial;
+    color: silver;
+}
